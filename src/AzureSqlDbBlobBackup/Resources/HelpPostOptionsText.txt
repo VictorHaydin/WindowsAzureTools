@@ -1,0 +1,24 @@
+Example:
+
+  AzureSqlDbBlobBackup.exe
+    --dac-service-url https://by1prod-dacsvc.azure.com/DACWebService.svc
+    --db-server-name abcdef1234.database.windows.net
+    --db-name Northwind
+    --db-username db-admin
+    --db-password db-admin-secret
+    --storage-account northwindstorage
+    --storage-account-key xSS7u0VAooryYw==
+    --blob-container backups
+    --blob-name NorthwindBackup.bacpac
+    --append-timestamp
+
+DACWebService URLs (as of October 2012):
+
+  North Central US : https://ch1prod-dacsvc.azure.com/DACWebService.svc
+  South Central US : https://sn1prod-dacsvc.azure.com/DACWebService.svc
+  North Europe     : https://db3prod-dacsvc.azure.com/DACWebService.svc
+  West Europe      : https://am1prod-dacsvc.azure.com/DACWebService.svc
+  East Asia        : https://hkgprod-dacsvc.azure.com/DACWebService.svc
+  Southeast Asia   : https://sg1prod-dacsvc.azure.com/DACWebService.svc
+  East US          : https://bl2prod-dacsvc.azure.com/DACWebService.svc
+  West US          : https://by1prod-dacsvc.azure.com/DACWebService.svc

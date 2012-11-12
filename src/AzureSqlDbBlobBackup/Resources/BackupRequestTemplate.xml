@@ -1,0 +1,12 @@
+<ExportInput xmlns="http://schemas.datacontract.org/2004/07/Microsoft.SqlServer.Management.Dac.ServiceTypes" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <BlobCredentials i:type="BlobStorageAccessKeyCredentials">
+    <Uri>{0}</Uri>
+    <StorageAccessKey>{1}</StorageAccessKey>
+  </BlobCredentials>
+  <ConnectionInfo>
+    <DatabaseName>{2}</DatabaseName>
+    <Password>{3}</Password>
+    <ServerName>{4}</ServerName>
+    <UserName>{5}</UserName>
+  </ConnectionInfo>
+</ExportInput>
